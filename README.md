@@ -24,7 +24,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ```
-Dockerfile
 # estágio de compilação
 FROM node:lts-alpine as build-stage
 WORKDIR /app
