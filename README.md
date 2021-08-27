@@ -46,3 +46,11 @@ docker build -t toolbox/dockerfile-example-frontend .
 ```
 docker run -it -p 8080:80 --rm --name dockerize-vuejs-app-1 toolbox/dockerfile-example-frontend
 ```
+
+```
+ docker-compose -p toolbox up --build -d
+```
+
+```
+docker-compose -p toolbox down
+```
