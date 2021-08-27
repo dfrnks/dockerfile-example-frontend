@@ -48,7 +48,7 @@ docker run -it -p 8080:80 --rm --name dockerize-vuejs-app-1 toolbox/dockerfile-e
 ```
 
 ```
- docker-compose -p toolbox up --build -d
+docker-compose -p toolbox up --build -d
 ```
 
 ```
